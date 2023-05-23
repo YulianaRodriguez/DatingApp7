@@ -15,7 +15,7 @@ namespace API.Controllers
         private readonly IMapper _mapper;
 
         public MessagesController(IUserRepository userRepository, IMessageRepository messageRepository, 
-        IMapper mapper)
+            IMapper mapper)
         {
             _mapper = mapper;
             _messageRepository = messageRepository;
